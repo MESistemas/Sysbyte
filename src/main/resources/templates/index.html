@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html xmlns:th="http://www.thymeleaf.org">
+  <html>
     <head>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -7,6 +7,8 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
       <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
       <link rel="icon" type="image/png" href="img/logo.png" />
 
@@ -24,6 +26,9 @@
       <style type="text/css">
       	.graduate{
       		font-family: 'Graduate', cursive;
+      	}
+      	.lobster{
+      		font-family: 'Lobster', cursive;
       	}
       </style>
       <!-- CSS -->
@@ -62,83 +67,26 @@
 	      <div class="row container">
 
 	      	<!-- Nosotros -->
-	        <h2 class="header">Nosotros</h2>
-	         <div class="row">
-			    <div class="col s12">
-			      <ul class="tabs">
-			        <li class="tab col s3"><a href="#test1" style="color:black">Nuestro Orígen</a></li>
-			        <li class="tab col s3"><a href="#test2" style="color:black">Misión y Visión</a></li>
-			        <li class="tab col s3"><a href="#test3" style="color:black">Compromiso</a></li>
-			        <li class="tab col s3"><a href="#test4" style="color:black">El Equipo</a></li>
-			      </ul>
-			    </div>
-			    <div id="test1" class="col s12">
-			    	<br>
-			    	<div class="col s12 m4">
-			    		<img src="img/Sysbyte.png" width="300px" height="300px">
-			    	</div>
-			    	<div class="col s12 m8">
-			    		  <div class="card white">
-					        <div class="card-content white-text">
-					          	<p style="font-size: 24px; color:black"><u>NUESTRO ORÍGEN</u></p>
-					          	<p style="text-align: justify; font-size: 24px; color:black; margin: 10px;"><b class="graduate">SYSBYTE</b> nace como un emprendimiento, donde nuestro principal objetivo es brindar software de calidad.
-					    	  	Buscamos la eficiencia y la innovación en nuestros desarrollos y cumplir con los rangos altos de calidad en el mercado. </p>
-							</div>
-					      </div>
-			    	</div>
-			    </div>
-			    <div id="test2" class="col s12">
-			    	<div class="row">
-			    		<br>
-				    	<div class="col s12 m6">
-				    	   <div class="card white">
-					        <div class="card-content white-text">
-					    		<p style="font-size: 24px; color:black"><u>MISIÓN</u></p>
-					    		<p style="text-align: justify; font-size: 24px; color:black; margin: 10px;">Tenemos como <b>misión</b> brindar software de calidad, llevar a nuestros clientes la solución que
-					    		cumpla con las expectativas, agregando nuestra creatividad y calidad en
-					    		el desarrollo.</p>
-				    		</div>
-					       </div>
-				    	</div>
-				    	<div class="col s12 m6">
-				    	 <div class="card white">
-					        <div class="card-content white-text">
-				    			<p style="font-size: 24px; color:black"><u>VISIÓN</u></p>
-				    			<p style="text-align: justify; font-size: 24px; color:black; margin: 10px;">Nuestra <b>visión</b> es convertirnos en una Empresa que logre ser referencia en la industria del software del desarrollo profesional. <br>
-				    			Contamos con un equipo capacitado para ello.</p>
-				    	 	</div>
-					      </div>
-				    	</div>
-			    	</div>
-			    </div>
-			    <div id="test3" class="col s12">
-				    <div class="card white">
-						 <div class="card-content white-text">
-					    		<p style="font-size: 24px; color:black"><u>COMPROMISO</u></p>
-					    		<p style="text-align: justify; font-size: 24px; color:black; margin: 10px;">Nuestro <b>compromiso</b> es cumplir con nuestro trabajo. Pulimos las ideas que cada cliente ha propuesto, para llevar como producto final un desarrollo
-					    		de calidad y eficiente en su función como solución. 
-					    		</p>
-					    </div>
-					</div>
-				 </div>
-			    </div>
-			    <div id="test4" class="col s12">
-			    	<div class="card white">
-						 <div class="card-content white-text">
-					    		<p style="font-size: 24px; color:black"><u>EQUIPO</u></p>
-					    		<p style="text-align: justify; font-size: 24px; color:black; margin: 10px;"><b class="graduate">SYSBYTE</b> cuenta con un equipo capacitado para desarrollar
-					    		software de calidad. Como equipo se ha propuesto la constante capacitación en las tecnologías más rentables de la actualidad.
-					    		Contamos con personal que controla, gestiona y lidera cada proyecto, así como también personal que trabaja en el diseño y la usabilidad de
-					    		cada desarrollo y por supuesto encargados de la calidad y la
-					    		funcionalidad del sistema creado.
-					    		</p>
-					    </div>
-					</div>
-			    </div>
-			  </div>
-			  <!-- Nosotros -->
+	      	<div class="center"><h4><u>Sobre Nosotros</u></h4></div>
+	      	<div class="col s12">
+	            <h5 style="text-align: justify;">
+	            	Somos un equipo de desarrollo que tiene como objetivo brindar software de calidad. Contamos con un equipo que se capacita constantemente con las tecnologías más estables para trabajar y llevar como producto final lo que cada cliente necesite. 
+	            </h5>
+	            <div class="col s12 l6 center">
+	            	<img src="img/Sysbyte.png" width="300px" height="300px" style="margin: 10px;">
+	            </div>
+	            <div class="col s12 l6 center"> 
+	            	<h5 class="lobster" style="margin: 10px;">
+	            		 <br><br>
+	            		 "Hagan lo que hagan, trabajen de buena gana, como para el Señor y no como para nadie en este mundo, conscientes de que el Señor los recompensará con la herencia. Ustedes sirven a Cristo el Señor"
+	            		 <br><br>
+	            		 Colosenses 3:23-24
+	            	</h5>
+	            </div>
+	      	</div>
+			    <!-- Nosotros -->
 
-        
+        	</div>
 	      </div>
 	    </div>
 	    <div class="parallax-container">
